@@ -1,0 +1,71 @@
+site_name: Pipeline de Dados — SQL Server + Spark + Delta Lake + MinIO
+site_description: Documentação do projeto de engenharia de dados com Apache Spark, Delta Lake e MinIO
+site_author: Grupo — Engenharia de Dados
+site_url: ""
+
+theme:
+  name: material
+  language: pt
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Modo escuro
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Início: index.md
+  - Arquitetura:
+      - Visão Geral: architecture/overview.md
+      - Schema do Banco: architecture/schema.md
+      - Arquitetura Medalhão: architecture/medallion.md
+  - Tecnologias:
+      - Apache Spark: technologies/spark.md
+      - Delta Lake: technologies/delta-lake.md
+      - MinIO: technologies/minio.md
+      - SQL Server: technologies/sqlserver.md
+  - Notebooks:
+      - 00 - Setup SQL Server: notebooks/00-setup.md
+      - 01 - Extração para MinIO: notebooks/01-extraction.md
+      - 02 - CSV para Delta Lake: notebooks/02-delta.md
+      - 03 - DML no Delta Lake: notebooks/03-dml.md
+  - Como Executar: howto/run.md
+  - Tabelas Gerenciadas vs Não Gerenciadas: managed-vs-unmanaged.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
