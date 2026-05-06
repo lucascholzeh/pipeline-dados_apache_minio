@@ -59,12 +59,15 @@ Projeto desenvolvido para o curso de **Engenharia de Dados** — demonstra a con
 
 ## Setup do Ambiente
 
-### 1. Clonar o repositório
+### 1. Clonar o repositório e configurar variáveis de ambiente
 
 ```bash
 git clone <url-do-repositorio>
 cd pipeline-dados
+cp .env.example .env
 ```
+
+> O arquivo `.env` contém as credenciais do SQL Server e do MinIO. Os valores padrão do `.env.example` já funcionam para o ambiente local com Docker.
 
 ### 2. Subir os containers (SQL Server + MinIO)
 
@@ -88,20 +91,14 @@ Credenciais padrão:
 
 > Console MinIO: [http://localhost:9021](http://localhost:9021)
 
-### 3. Configurar variáveis de ambiente
-
-```bash
-cp .env.example .env
-```
-
-### 4. Instalar UV (se ainda não tiver)
+### 3. Instalar UV (se ainda não tiver)
 
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
 source $HOME/.local/bin/env
 ```
 
-### 5. Criar ambiente virtual e instalar dependências
+### 4. Criar ambiente virtual e instalar dependências
 
 ```bash
 uv venv
