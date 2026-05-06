@@ -1,0 +1,21 @@
+id_cliente,nome,cpf,data_nascimento,email,sexo
+1,Ana Souza,111.111.111-01,1985-03-12,ana.souza@email.com,F
+2,Bruno Lima,111.111.111-02,1990-07-25,bruno.lima@email.com,M
+3,Carla Dias,111.111.111-03,1978-11-30,carla.dias@email.com,F
+4,Diego Melo,111.111.111-04,1995-01-15,diego.melo@email.com,M
+5,Eduarda Costa,111.111.111-05,1988-06-22,eduarda.costa@email.com,F
+6,Felipe Ramos,111.111.111-06,1992-09-10,felipe.ramos@email.com,M
+7,Gabriela Nunes,111.111.111-07,1983-04-05,gabriela.nunes@email.com,F
+8,Henrique Alves,111.111.111-08,1975-12-18,henrique.alves@email.com,M
+9,Isabela Martins,111.111.111-09,1998-02-28,isabela.martins@email.com,F
+10,João Pereira,111.111.111-10,1970-08-14,joao.pereira@email.com,M
+11,Kamila Torres,111.111.111-11,1987-05-03,kamila.torres@email.com,F
+12,Leonardo Silva,111.111.111-12,1993-10-20,leonardo.silva@email.com,M
+13,Mariana Rocha,111.111.111-13,1980-07-07,mariana.rocha@email.com,F
+14,Nicolas Barros,111.111.111-14,1996-03-25,nicolas.barros@email.com,M
+15,Olivia Fernandes,111.111.111-15,1989-11-11,olivia.fernandes@email.com,F
+16,Paulo Cardoso,111.111.111-16,1973-01-30,paulo.cardoso@email.com,M
+17,Quesia Nascimento,111.111.111-17,1991-06-16,quesia.nascimento@email.com,F
+18,Rodrigo Gomes,111.111.111-18,1984-09-02,rodrigo.gomes@email.com,M
+19,Sabrina Araujo,111.111.111-19,1997-04-19,sabrina.araujo@email.com,F
+20,Thiago Ribeiro,111.111.111-20,1976-12-08,thiago.ribeiro@email.com,M

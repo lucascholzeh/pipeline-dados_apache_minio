@@ -1,0 +1,21 @@
+id_endereco,id_cliente,logradouro,numero,complemento,bairro,cep,id_municipio
+1,1,Rua das Flores,100,Apto 201,Centro,01001-000,24
+2,2,Av. Paulista,500,,Bela Vista,01310-000,24
+3,3,Rua XV de Novembro,200,Casa,Centro,80020-000,25
+4,4,Rua dos Andradas,300,,Centro,90020-005,26
+5,5,Av. Beira Mar,1000,,Meireles,60165-121,10
+6,6,Rua da Consolação,400,Apto 502,Consolação,01302-000,24
+7,7,Av. Brasil,750,,Funcionários,30140-002,22
+8,8,Rua Treze de Maio,150,,Boa Vista,50060-000,13
+9,9,Av. Sete de Setembro,900,,Barra,41750-000,9
+10,10,Rua da Bahia,450,,Centro,30160-010,22
+11,11,Av. Getúlio Vargas,600,,Savassi,30112-020,22
+12,12,Rua Santos Dumont,80,,Centro,88010-000,27
+13,13,Av. Rio Branco,2000,Sala 301,Centro,20040-004,23
+14,14,Rua Marechal Deodoro,350,,Centro,80020-320,25
+15,15,Av. Boa Viagem,1200,,Boa Viagem,51011-000,13
+16,16,Rua Oscar Freire,700,,Jardins,01426-001,24
+17,17,Av. Independência,500,,Independência,90035-075,26
+18,18,Rua Padre Chagas,120,,Moinhos de Vento,90570-080,26
+19,19,Av. Atlântica,3000,Cobertura,Copacabana,22070-000,23
+20,20,Rua Haddock Lobo,200,,Cerqueira César,01414-003,24

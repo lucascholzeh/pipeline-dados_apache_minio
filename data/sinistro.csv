@@ -1,0 +1,11 @@
+id_sinistro,id_apolice,data_ocorrencia,tipo_sinistro,descricao,valor_prejuizo,status
+1,1,2024-03-10,Colisão,Batida traseira em semáforo,8500.00,Encerrado
+2,3,2024-04-22,Roubo,Veículo roubado no estacionamento,80000.00,Encerrado
+3,5,2024-05-15,Colisão,Colisão lateral em cruzamento,12000.00,Em análise
+4,7,2024-06-30,Incêndio,Incêndio no motor por curto-circuito,35000.00,Encerrado
+5,9,2024-07-18,Colisão,Batida frontal em rodovia,25000.00,Em análise
+6,11,2024-08-05,Roubo,Roubo de peças do veículo,15000.00,Encerrado
+7,13,2024-09-12,Alagamento,Veículo danificado por enchente,20000.00,Em análise
+8,15,2024-10-01,Colisão,Capotamento em pista molhada,45000.00,Encerrado
+9,17,2024-10-28,Roubo,Veículo furtado da garagem,38000.00,Em análise
+10,19,2024-11-14,Colisão,Colisão com animal na pista,18000.00,Encerrado
